@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.vkeyws.studycase4async.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:text="Welcome"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/namelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of Student Names" />
+
+    <Button
+        android:id="@+id/carigambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Search" />
+
+
+</LinearLayout>

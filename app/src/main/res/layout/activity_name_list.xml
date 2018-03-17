@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context="com.vkeyws.studycase4async.NameList">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="List of Student Names"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_startAsyncTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Mulai AsyncTask"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
